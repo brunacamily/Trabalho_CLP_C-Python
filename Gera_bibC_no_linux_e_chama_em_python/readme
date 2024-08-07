@@ -1,0 +1,4 @@
+criei arquivo c com a função;
+cria uma bib .so (linux) só com a função mandelbrot,
+    // para gerar bib (no linux): gcc -shared -o teste.so -fPIC teste.c
+e um aquivo python chamama essa função num loop para montar a imagem e plota ela
