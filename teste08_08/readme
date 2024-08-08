@@ -1,0 +1,2 @@
+1 - compila o.c e gera bib : gcc -shared -o teste.dll -Wl,--out-implib,libmandelbrot.a -fPIC teste.c           
+2 - executa o python : python teste.py
