@@ -1,5 +1,5 @@
 //windows:
-// gcc -shared -o calculo.dll -fPIC calculo.c        
+// gcc -shared -o calculo.-fPIC calculo.c        
 // python teste.py
 
 

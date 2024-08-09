@@ -7,7 +7,7 @@ from matplotlib import colormaps
 import random
 
 # Carregar a biblioteca C
-mandelbrot = CDLL('./calculo.so')
+mandelbrot = CDLL('./calculo.dll')
 mandelbrot.generate_mandelbrot.argtypes = [c_int, c_int, c_double, c_double, c_double, c_double, c_int, POINTER(c_int)]
 
 cmap = 'hot'
