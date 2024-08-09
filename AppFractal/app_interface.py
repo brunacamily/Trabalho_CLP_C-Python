@@ -5,11 +5,12 @@ import tkinter as tk
 from tkinter import messagebox, simpledialog
 from matplotlib import colormaps
 import random
+
 # Carregar a biblioteca C
 mandelbrot = CDLL('./teste.so')
 mandelbrot.generate_mandelbrot.argtypes = [c_int, c_int, c_double, c_double, c_double, c_double, c_int, POINTER(c_int)]
 
-cmap = 'binary'
+cmap = 'hot'
 
 def set_color():
     global cmap

@@ -4,5 +4,5 @@ windows:
 
 
 linux:
-// gcc -shared -o teste.so -fPIC teste.c
-// python teste.py
+// gcc -shared -o calculo.so -fPIC calculo.c
+// python3 app_interface.py
