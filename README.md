@@ -18,7 +18,7 @@ Visando as exigências estabelecidas escolhemos gerar o fractal de Mandelbrot, p
         - app_interface.py: Arquivo que gera uma interface e plota um gráfico com o fractal de Mandelbrot;
         - Makefile: Pode ser usado para automatizar a compilação e execução do trabalho.
 
-## Bibliotecas nescessárias
+## Bibliotecas necessárias
 - numpy
 - matplotlib
 
