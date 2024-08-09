@@ -1,8 +1,8 @@
-windows:
-// gcc -shared -o teste.dll -Wl,--out-implib,libmandelbrot.a -fPIC teste.c           
+//windows:
+// gcc -shared -o calculo.dll -fPIC calculo.c        
 // python teste.py
 
 
-linux:
+//linux:
 // gcc -shared -o calculo.so -fPIC calculo.c
 // python3 app_interface.py
