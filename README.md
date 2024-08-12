@@ -28,8 +28,10 @@ Na pasta AppFractal estão os seguintes arquivos:
 
 ## Execução Utilizando Makefile
 Abra um terminal Linux ou com suporte para o comando 'make', e execute a seguinte sequência de comandos:
-        - `make`
-        - `make run`
+    
+- `make`
+    
+- `make run`
 
 ## Execução Passo a Passo Sem Utilizar Makefile
 Linux: 
