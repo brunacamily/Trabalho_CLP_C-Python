@@ -8,9 +8,6 @@
 ## Específicação do trabalho
 Implementar uma aplicação gráfica (sugestão: fractal de Mandelbrot, ray tracing, simulação de partículas) com apoio de duas linguagens de programação: Python e C (ou C++). O desafio consiste em realizar o uso conjunto de duas linguagens de programação, sendo o desafio especificamente, realizar o uso conjunto das linguagens. Python deve ser utilizado para oferecer uma interface com o usuário e apresentar a imagem gerada. A linguagem C (ou C++) deve ser utilizada para implementar o serviço de cálculo desejado.
 
-## Abordagem escolhida
-Visando as exigências estabelecidas escolhemos gerar o fractal de Mandelbrot, para isso 
-
 ## Organização dos arquivos
     Na pasta AppFractal contém os arquivos:
         - calculo.c: Contém duas funções para calcular o fractal de Mandelbrot, a partir dele será criada a biblioteca compartilhada (calcular.so);
