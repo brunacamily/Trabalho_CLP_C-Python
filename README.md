@@ -15,7 +15,7 @@ Implementar uma aplicação gráfica (sugestão: fractal de Mandelbrot, ray trac
         - app_interface.py: Arquivo que gera uma interface e plota um gráfico com o fractal de Mandelbrot;
         - Makefile: Pode ser usado para automatizar a compilação e execução do trabalho.
 
-## Bibliotecas nescessárias
+## Bibliotecas necessárias
 - numpy
 - matplotlib
 
